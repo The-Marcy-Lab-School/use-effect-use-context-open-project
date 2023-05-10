@@ -19,6 +19,7 @@ npm run dev
 # Open Project: useEffect and useContext
 
 This project focuses on demonstrating three key React skills:
+
 0. Creating controlled forms
 1. Using the `useEffect` hook to execute an asynchronous `fetch` from a public API.
 2. Using the `createContext` function and the `useContext` hook to manage the global state of your application.
