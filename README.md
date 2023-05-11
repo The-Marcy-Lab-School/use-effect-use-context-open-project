@@ -18,14 +18,11 @@ npm run dev
 
 # Open Project: useEffect and useContext
 
-This project focuses on demonstrating these React skills:
+This project focuses on demonstrating these three React skills:
 
 1. Creating controlled forms
 2. Using the `useEffect` hook to execute an asynchronous `fetch` from a public API.
 3. Rendering a list of data as a list of components
-4. Using the `createContext` function and the `useContext` hook to manage the global state of your application.
-
-Think of this as a mini project-week solo-project (but you can certainly collaborate to get it done!). 
 
 ## Features
 
@@ -65,17 +62,10 @@ Think of these features as a check-list of your skills. Work on them from top to
 * (1pt) The `useEffect` fetch is executed whenever the input form value changes. 
    * Each useEffect fetch should also update the rendered list of components.
    * You can demonstrate this by typing in the text input of your form and see new data populating on your page
-* (1pt) Establish a global context for your application such that data is shared between your components.
-   * Your context should implemented using two files: one file where the context is created and exported, and one file where the `ContextProvider` component is exported with values.
-   * If you have not already done so, refactor your code such that `ContextProvider` contains your `useEffect` hook.
-   * The `ContextProvider` component should wrap the top-level `App` component
-   * The global state of the application should be managed by the `ContextProvider`
-   * Components that need to use state or state-setter functions can retrieve them from the context using the `useContext` hook.
-   * You can demonstrate this by having a fully function application. Check with your instructor for best practices, or compare your code with an exemplar solution.
 
 ## Grading
 
-In terms of grading, completing each feature will earn you 1 point and your total score will be a percentage out of the total possible points you can earn. As such, you should be able to self-grade and identify your own areas of growth (though we will help with that too).
+In terms of grading, completing each feature will earn you 1 point and your total score will be a percentage out of the total possible points you can earn (5). As such, you should be able to self-grade and identify your own areas of growth (though we will help with that too).
 
 # Giphy Search Example
 
